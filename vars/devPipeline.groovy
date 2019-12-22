@@ -1,4 +1,6 @@
-        stage('Build') {
+#!/usr/local/bin groovy
+
+stage('Build') {
             steps {
                 script {
                 echo "Build Stage"
