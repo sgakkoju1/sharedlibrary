@@ -2,10 +2,10 @@
 
 //def call(String name = 'Sridhar Gakkoju') {
             
-def call(body) {
-    def config = [:]
+def call (body) {
+    def configParameters = [:]
     body.resolveStrategy = Closure.DELEGATE_FIRST
-    body.delegate = config
+    body.delegate = configParameters
     body()
 
 pipeline {
@@ -29,4 +29,4 @@ pipeline {
             }
 }
             
-}// end for call statement
+} // end for call statement
