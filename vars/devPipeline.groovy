@@ -1,6 +1,8 @@
 #!/usr/local/bin groovy
 
-def call(String name = 'Sridhar Gakkoju') {
+//def call(String name = 'Sridhar Gakkoju') {
+            
+def call {
 
 pipeline {
             agent any
