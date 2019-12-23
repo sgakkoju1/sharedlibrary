@@ -2,7 +2,7 @@
 
 //def call(String name = 'Sridhar Gakkoju') {
             
-def call {
+def call() {
 
 pipeline {
             agent any
