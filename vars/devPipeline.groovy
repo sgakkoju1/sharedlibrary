@@ -1,12 +1,12 @@
 #!/usr/local/bin groovy
 
-def call(String name = 'Sridhar Gakkoju') {
+//def call(String name = 'Sridhar Gakkoju') {
             
-//def call (body) {
-//    def configParameters = [:]
-//    body.resolveStrategy = Closure.DELEGATE_FIRST
-//    body.delegate = configParameters
-//    body()
+def call (body) {
+    def configParameters = [:]
+    body.resolveStrategy = Closure.DELEGATE_FIRST
+    body.delegate = configParameters
+    body()
 
 pipeline {
             agent any
